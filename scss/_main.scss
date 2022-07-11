@@ -1,0 +1,104 @@
+$fuente: 'Roboto Slab', serif;
+
+
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .card{
+    overflow: hidden;
+    .card-img-top:hover{
+        transform: scale(1.1);
+       }
+  }
+
+  
+.card-body{
+    .card-title{
+        font-weight: bold;
+      }
+    .card-text{
+    font-family: $fuente;
+    .card-text:hover{
+        font-weight: bold;
+      }
+  }
+} 
+  
+ 
+  
+   
+  .parrafo{
+     font-size: 3rem;
+     font-family: $fuente;
+  }
+  
+  .icono{
+      margin-left: 3px;
+  }
+  
+  @media screen and (max-width: 425px){
+    .carousel-item img{
+      height: auto
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .carousel-item img{
+      height: auto
+    }
+  }
+  
+  .tracking-in-contract-bck {
+    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+            animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+  
+  }
+  
+  
+  @-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 780px){
+  .parrafo{
+      font-size:2rem;
+  }
+  }
+  
+  @media screen and (max-width: 425px){
+  .parrafo{
+      font-size:1rem;
+  }
+  
+  }

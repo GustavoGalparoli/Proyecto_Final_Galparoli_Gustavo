@@ -1,0 +1,38 @@
+$bg-fondo: #131111;
+$texto: #34B3F1;
+$texto2: #D1D1D1;
+$fuente: 'Roboto Slab', serif;
+
+
+.navbar_fondo{
+    background-color: $bg-fondo;
+  }
+
+.contenedor{
+    .logo{
+        font-family: $fuente;
+        color: $texto2;
+     }
+}
+  
+.contenedor_lista{
+    ul{
+        li{
+            .nav-link{
+                color: $texto2;
+                    &:hover{
+                        color: $texto;
+              }
+            }  
+        }
+    }
+}
+ 
+
+ 
+ 
+
+
+ 
+
+ 
